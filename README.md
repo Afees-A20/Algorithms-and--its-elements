@@ -8,17 +8,17 @@ This algorithm reads a sentence character by character until a period (.) is enc
 - Number of vowels (a, e, i, o, u)
 
 ## Counters
-The algorithm uses **three counters**:
+The algorithm uses *three counters*:
 
 1. length → counts all characters
 2. words → counts words
-3. owels → counts vowels
+3. vowels → counts vowels
 
 ## Logic
 - Read each character individually
 - Increment length for every character
 - Increment words when a space is found
-- Increment owels when a vowel is found
+- Increment oowels when a vowel is found
 - Stop reading when . is encountered
 - Output all three counters
 
