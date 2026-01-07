@@ -1,0 +1,30 @@
+Algorithm Sentence_Analysis
+
+Variables:
+  c : character
+  length ← 0
+  words ← 1
+  vowels ← 0
+
+Begin
+  Read c
+  While c ≠ '.'
+    length ← length + 1
+
+    If c = ' ' then
+      words ← words + 1
+    EndIf
+
+    If c = 'a' or c = 'e' or c = 'i' or c = 'o' or c = 'u' then
+      vowels ← vowels + 1
+    EndIf
+
+    Read c
+  EndWhile
+
+  length ← length + 1
+
+  Output length
+  Output words
+  Output vowels
+End
